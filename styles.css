@@ -8,7 +8,6 @@ h1 {
     font-size: 40px;
     color: #1c1c1c;
     background: linear-gradient(90deg, rgba(69, 248, 252, 1) 1%, rgba(29, 97, 253, 1) 65%);
-    color: #fff;
 }
 
 h2 {
@@ -39,9 +38,16 @@ ul>li a:hover {
     padding: 15px 0;
     background: #007bff;
     text-align: center;
+    color: #fff;
+}
+
+.intro h2 {
+    color: inherit;
 }
 
 .content {
+    max-width: 420px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
